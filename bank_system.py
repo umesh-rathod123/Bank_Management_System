@@ -4,9 +4,9 @@ import os
 FILE_NAME = "banking_system.xlsx"
 
 
-# --------------------------------
+#---------------------------
 # Excel File Setup
-# --------------------------------
+# --------------------------
 def setup_excel():
     if not os.path.exists(FILE_NAME):
         workbook = Workbook()
